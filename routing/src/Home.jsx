@@ -16,11 +16,11 @@ export default function Home() {
         
             //console.log("Home componene ka use Effect"); // it run every first time whenve home will rerendered
            return ()=>{
-            console.log("Home unmounted");
+            console.log("Home unmounted"); // this return runs only when its lifecycle ends
             
            }; 
 
-    },[]) // it means count0 state change only then use effect will run
+    },[]) //this is dependency array it means count0 state change only then use effect will run
 
 
   return (
