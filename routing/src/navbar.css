@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+ul{
+    
+    border: 2px solid black;
+    display:flex;
+    justify-content: space-around;
+
+}
+li{
+    
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+a{
+    text-decoration: none;
+
+}
